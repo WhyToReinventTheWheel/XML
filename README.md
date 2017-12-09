@@ -16,6 +16,11 @@ XML Declaration
 	UTF-8/UTF-16
 		* can represent internation characters.
 		* UTF-8 is mac/Linux/HTML5 default
+			- It is varible size encoding, multiple of 8-Byte use to represent data 
+			- Any characters can be represent by UTF-8
+			- Disadvantage:sometime more byte needed to represent data as compare to UTF-16
+			- because it is default in most the case, always use this encoding unless you have strong
+				reason to so.
 		* UTF-16 is windows default
 	
 	
