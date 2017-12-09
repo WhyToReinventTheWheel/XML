@@ -113,8 +113,8 @@ External DTD
 	
 	* standalone attribute in the XML declaration must be set as no.
 	* <!DOCTYPE root-element SYSTEM "file-name">
+
 	Example:
-	
 		<?xml version = "1.0" encoding = "UTF-8" standalone = "no" ?>
 		<!DOCTYPE address SYSTEM "address.dtd">
 		<address>
@@ -124,7 +124,6 @@ External DTD
 		</address>
 		
 	address.dtd
-		
 		<!ELEMENT address (name,company,phone)>
 		<!ELEMENT name (#PCDATA)>
 		<!ELEMENT company (#PCDATA)>
