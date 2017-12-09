@@ -133,5 +133,23 @@ External DTD
 ---------------------------
 XML Schema Definition (XSD)
 ---------------------------
-
+	It is used to describe and validate the structure and the content of XML data. 
+	XML schema defines the elements, attributes and data types.
+	
+	<?xml version = "1.0" encoding = "UTF-8"?>
+	<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+	   <xs:element name = "contact">
+		  <xs:complexType>
+			 <xs:sequence>
+				<xs:element name = "name" type = "xs:string" />
+				<xs:element name = "company" type = "xs:string" />
+				<xs:element name = "phone" type = "xs:int" />
+			 </xs:sequence>
+		  </xs:complexType>
+	   </xs:element>
+	</xs:schema>
+	
+	Elements
+		<xs:element name = "x" type = "y"/>
+	
 	
